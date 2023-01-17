@@ -1036,7 +1036,7 @@ def _ensure_cwd_is_workspace_root():
 
 if __name__ == '__main__':
     _ensure_cwd_is_workspace_root()
-    _ensure_gitignore_entries_exist()
+    # _ensure_gitignore_entries_exist()
     _ensure_external_workspaces_link_exists()
 
     target_flag_pairs = [
